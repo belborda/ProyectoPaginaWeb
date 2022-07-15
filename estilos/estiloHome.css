@@ -14,7 +14,7 @@ a {
 
 
 .header {
-    background:#EAFAF1; 
+    background: #E9967A;
     display: inline-block;
     position: relative;
 }
@@ -54,7 +54,7 @@ a {
 
 
 main {
-    background: #EBDEF0;
+    background: #A1E9EF;
     color:#050607;
     font-size: 2em;
 }
@@ -112,7 +112,7 @@ justify-content: space-between;
 
 
 .footer {
-    background: #EAFAF1;
+    background: #E9967A;
     padding: 3,5em;
     display: flex;
     justify-content: center;
@@ -138,6 +138,6 @@ justify-content: space-between;
 
 
 .social [class^="icon-"]:hover {
-    color: #cf8fcc;
-    background: #f8f8f8;
+    color: #EAFAF1;
+    background: #17202A;
 }
