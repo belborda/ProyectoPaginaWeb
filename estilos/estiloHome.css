@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    font-family: 'Amatic SC', cursive;
+    width: 1920px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*-----------------------------------Estilos del Header-----------------------------------*/
+
+
+.header {
+    background:#EAFAF1; 
+    display: inline-block;
+    position: relative;
+}
+
+.nav-categorias {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+}
+
+.nav-categorias a {
+    color: #0d0e0d;
+    font-size: 3em;
+    border-radius: 10%;
+}
+
+.nav-categorias a:hover {
+    background: #050607;
+    color: #EAFAF1;
+}
+
+#select {
+    background: #17202A;
+    color: #EAFAF1;
+} 
+
+
+/*-----------------------------------Estilos del Banner-----------------------------------*/
+
+
+.banner-slide {
+    height: 640px;
+}
+
+/*-----------------------------------Estilos del Main-----------------------------------*/
+
+
+main {
+    background: #EBDEF0;
+    color:#050607;
+    font-size: 2em;
+}
+
+
+/*-----------------------------------Estilos del Acerca de-----------------------------------*/
+
+
+.acerca {
+    padding: 5.5em;
+    display: inline-block;
+}
+
+.acerca div{
+display: flex;
+justify-content: space-between;
+}
+
+.parrafo { 
+    text-align: center;
+    padding: 2.5em;
+}
+
+/*-----------------------------------Estilos del Contacto-----------------------------------*/
+
+
+.formulario {
+    padding-top: 2.5em;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+}
+
+.formulario form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.datos {
+    padding-top: 2.5em;
+    margin-left: 25%;
+}
+
+.mapa {
+    padding: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa iframe {
+    border-radius: 10%;
+}
+
+
+/*-----------------------------------Estilos del Footer-----------------------------------*/
+
+
+.footer {
+    background: #EAFAF1;
+    padding: 3,5em;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+
+.social {
+    width: 50%;
+    color: #17202A;
+    display: flex;
+    justify-content: center;
+}
+
+
+.social [class^="icon-"] {
+    color: #17202A;
+    font-size: 3em;
+    border-radius: 10%;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.75em;
+}
+
+
+.social [class^="icon-"]:hover {
+    color: #cf8fcc;
+    background: #f8f8f8;
+}
